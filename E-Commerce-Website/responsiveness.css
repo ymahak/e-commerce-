@@ -1,0 +1,81 @@
+@media only screen and (max-width:1199px) {
+
+    #home .home-banner-1,
+    #home .home-banner-2,
+    #home .home-banner-3 {
+        background-position: 65% center;
+        min-height: 550px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 32px;
+    }
+
+    .carousel-caption p {
+        font-size: 18px;
+
+    }
+
+    .offers .offer-box .offer-info .heading-bigger {
+        font-size: 3rem;
+    }
+
+    .special .countdown-container .countdown-counter li {
+        padding: 1.5rem 1rem;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .carousel-caption p {
+        display: none;
+    }
+
+    .special .countdown-container {
+        padding-top: 1rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    @media only screen and (max-width:1199px) {
+
+        #home .home-banner-1,
+        #home .home-banner-2,
+        #home .home-banner-3 {
+            background-position: 50% center;
+            min-height: 450px;
+        }
+
+        .carousel-caption h5 {
+            font-size: 20px;
+        }
+
+        .products .up_to_content h2 {
+            font-size: 0.75rem;
+        }
+
+        .special {
+            padding: 4rem 0;
+        }
+
+        .special .countdown-container .countdown-counter li {
+            padding: 1rem;
+            width: 20%;
+        }
+    }
+
+}
+
+@media only screen and (max-width:575px) {
+    #carouselFull {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:330px) {
+    .products .up_to_content h2 {
+        font-size: 0.625rem;
+    }
+
+}
